@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch --env-file .env src/server.ts"
+    "dev": "tsx watch src/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
     "@types/node": "^20.12.2",
     "D": "^1.0.0",
     "fastify": "^4.26.2",
+    "fastify-type-provider-zod": "^1.1.9",
     "typescript": "^5.4.3",
     "zod": "^3.22.4"
   },

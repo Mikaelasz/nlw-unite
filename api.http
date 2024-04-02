@@ -2,7 +2,22 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-    "title": "Unite Summit",
-    "details": "Um evento para quem é apaixonado por programação",
-    "maximumAttendees": 100
+    "title": "Novo evento2",
+    "details": null,
+    "maximumAttendees": 1
 }
+
+###
+POST http://localhost:3333/events/7b5cfac4-9d82-42d9-9976-4260e2d9078e/attendees
+Content-Type: application/json
+
+{
+    "name": "Mikaela1 Araujo",
+    "email": "miih.arj@gmail.com"
+}
+
+###
+GET http://localhost:3333/events/7b5cfac4-9d82-42d9-9976-4260e2d9078e
+
+###
+GET http://localhost:3333/attendees/1/badge
