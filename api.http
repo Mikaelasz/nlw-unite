@@ -21,3 +21,9 @@ GET http://localhost:3333/events/7b5cfac4-9d82-42d9-9976-4260e2d9078e
 
 ###
 GET http://localhost:3333/attendees/1/badge
+
+###
+GET http://localhost:3333/attendees/1/check-in
+
+###
+GET http://localhost:3333/events/7b5cfac4-9d82-42d9-9976-4260e2d9078e/attendees?query=joao
